@@ -9,6 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <MetaMaskProvider
+      debug={false}
       sdkOption={{
         dappMetadata: "ERC20 Practice",
         url: window.location.host
